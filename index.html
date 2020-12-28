@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+            crossorigin="anonymous"
+    />
+
+    <title>Cue Shop</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+</head>
+
+<body>
+<div id="wrapper">
+    <div id="right-content">
+        <div class="side-menu d-md-none">
+            <div class="row no-gutters">
+                <ul class="nav">
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="#">Locations</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="#">Subscribe</a>
+                    </li>
+                    <li class="nav-item text-center" style="border-bottom: 1px solid white">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="left-content">
+        <div class="header">
+            <!-- Mobile navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark d-md-none fixed-top" id="mobile-nav">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="Logo" id="mobile-nav-brand"/>
+                </a>
+                <a href="#menu-toggle" id="menu-toggle"><span class="navbar-toggler-icon"></span></a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#">Home</a>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- navbar  visible on scroll -->
+            <ul class="nav fixed-top justify-content-center scrollable" id="scrollnav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="Logo" />
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Locations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Subscribe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                </li>
+            </ul>
+
+            <!-- header navbar + brand nav + shop now button -->
+            <ul class="nav justify-content-center d-none d-md-flex">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Locations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Subscribe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                </li>
+            </ul>
+
+            <!--    <ul class="nav justify-content-center brand d-none d-md-flex">-->
+            <ul class="nav justify-content-center brand">
+                <li class="nav-item">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="Logo" />
+                    </a>
+                </li>
+            </ul>
+
+            <div id="shop-button">
+                <a class="btn dark" href="#" role="button">Shop now</a>
+            </div>
+        </div>
+
+        <section class="main-content">
+            <div class="container">
+                <div class="main-content-introduction text-center">
+                    <h4>Introduction</h4>
+                    <h3>
+                        <i>Cue Shop</i> is a leather bag and accessory company which
+                        focusses on delivering the best product to you.
+                    </h3>
+                    <div class="main-content-posts container">
+                        <h4>Featured prodcuts</h4>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 post">
+                                <a href="#">
+                                    <img
+                                            class="img-fluid"
+                                            src="https://cdn.pixabay.com/photo/2020/09/10/18/08/has-5561156_1280.jpg"
+                                    />
+                                </a>
+                                <h4>hat, unisex, leather</h4>
+                                <h3>Leather unisex hat</h3>
+                            </div>
+                            <div class="col-lg-6 col-md-12 post">
+                                <a href="#">
+                                    <img
+                                            class="img-fluid"
+                                            src="https://cdn.pixabay.com/photo/2020/10/23/21/58/ring-5680047_1280.jpg"
+                                    />
+                                </a>
+                                <h4>ring, female, ring</h4>
+                                <h3>Silver ring</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 post">
+                                <a href="#">
+                                    <img
+                                            class="img-fluid"
+                                            src="https://cdn.pixabay.com/photo/2018/07/10/12/26/lights-3528562_1280.jpg"
+                                    />
+                                </a>
+                                <h4>lights, christmas</h4>
+                                <h3>Christmas lights</h3>
+                            </div>
+                            <div class="col-lg-6 col-md-12 post">
+                                <a href="#">
+                                    <img
+                                            class="img-fluid"
+                                            src="https://cdn.pixabay.com/photo/2020/09/02/15/09/bracelets-5538539_1280.jpg"
+                                    />
+                                </a>
+                                <h4>bracelet, female, stainless steel</h4>
+                                <h3>Colourful Bracelet</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 post">
+                                <a href="#">
+                                    <img
+                                            class="img-fluid"
+                                            src="https://cdn.pixabay.com/photo/2020/11/09/15/49/watch-5727064_1280.jpg"
+                                    />
+                                </a>
+                                <h4>watch, stainless steel, omega</h4>
+                                <h3>Omega Speedmaster</h3>
+                            </div>
+                            <div class="col-lg-6 col-md-12 post">
+                                <a href="#">
+                                    <img
+                                            class="img-fluid"
+                                            src="https://cdn.pixabay.com/photo/2020/08/01/11/53/bracelet-5455220_1280.jpg"
+                                    />
+                                </a>
+                                <h4>Bracelet, gift, rope</h4>
+                                <h3>Rope Bracelet</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="load-more">
+                        <a class="btn light load-btn" href="#" role="button">Load more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="text-center footer-contact-us">
+                <div class="content">
+                    <h4>Stay informed</h4>
+                    <input type="email" placeholder="Enter email address" /><br />
+                    <ul class="social-icons">
+                        <li>
+                            <a class="nav-link" href="https://www.facebook.com/arbrikoxha.1" target="_blank">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="https://twitter.com/" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="https://www.instagram.com/arbri_koxha/" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-parent d-none d-md-flex">
+                <div class="footer-navigation container">
+                    <div class="row">
+                        <div class="col-9">
+                            <a href="#">
+                                <img src="images/logo.png" />
+                            </a>
+                        </div>
+                        <ul class="footer-links col-3">
+                            <li class="bold-link">
+                                <a href="#">Cue Shop</a>
+                            </li>
+                            <li class="footer-link">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="footer-link">
+                                <a href="#">Contact</a>
+                            </li>
+                            <li class="footer-link">
+                                <a href="#">About us</a>
+                            </li>
+                            <li class="footer-link">
+                                <a href="#">Locations</a>
+                            </li>
+                            <li class="footer-link">
+                                <a href="#">Subscribe</a>
+                            </li>
+                            <li class="footer-link">
+                                <a href="#">Shop</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-parent footer-copyright d-none d-md-flex">
+                <div class="container container-copyright">
+                    <div class="row">
+                        <h6 class="col-lg-6 col-md-12">© 2020 Arber Koxha. All Rights Reserved</h6>
+                        <h6 class="col-lg-3 col-md-9">Terms and conditions</h6>
+                        <h6 class="col-lg-3 col-md-3">Website: <a href="#">Arber Koxha</a></h6>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-mobile d-md-none">
+                <div class="row no-gutters">
+                    <ul class="nav">
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="#">Back to top</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script
+        src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"
+></script>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
