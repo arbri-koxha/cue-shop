@@ -127,7 +127,8 @@ body {
     height: 125px;
 }
 .header .navbar-brand img:hover,
-.header .nav a:hover {
+.header .nav a:hover,
+.header .nav a.active{
     opacity: 0.8;
     transition: opacity 0.3s;
 }
@@ -203,18 +204,18 @@ body {
 .hide-nav {
     visibility: hidden;
 }
-#mobile-nav{
+.mobile-nav{
     background-color: transparent;
     min-height: 71px;
 }
-#mobile-nav .navbar-brand{
+.mobile-nav .navbar-brand{
     margin-left: -98px;
     padding-left: 50%;
 }
-#mobile-nav-brand{
+.mobile-nav-brand{
     max-height: 45px;
 }
-#scrollnav{
+.scrollnav{
     display: none;
 }
 .display-flex{
@@ -222,6 +223,32 @@ body {
 }
 .dark-background{
     background-color: var(--secondary-color) !important;
+}
+/* Contact form styling*/
+.contact-form {
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.contact-form form {
+    padding: 20px;
+}
+.contact-form form .row {
+    margin-bottom: 30px;
+}
+.contact-form h3 {
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #000000;
+}
+.contact-form form .form-control {
+    border: 1px solid #000000;
+    border-radius: 0;
+    height: 60px;
+}
+.contact-form form textarea {
+    height: 210px !important;
 }
 @media (max-width: 992px) {
     .main-content-introduction h3 {
@@ -234,7 +261,7 @@ body {
     .container{
         max-width: 100%;
     }
-    #scrollnav{
+    .scrollnav{
         display: none !important;
     }
     .main-content-introduction h3 {

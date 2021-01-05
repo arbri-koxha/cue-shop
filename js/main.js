@@ -1,15 +1,15 @@
 //Script for the scrollable navbar
-$(document).scroll(function () {
+$(window).scroll(function () {
   var x = $(this).scrollTop();
   var y = $(window).height()/2;
   if (x > y) {
-    $("#scrollnav").addClass("display-flex");
-    $("#mobile-nav-brand").fadeIn();
-    $("#mobile-nav").addClass("dark-background");
+    $(".scrollnav").addClass("display-flex");
+    $(".mobile-nav-brand").fadeIn();
+    $(".mobile-nav").addClass("dark-background");
   } else {
-    $("#scrollnav").removeClass("display-flex");
-    $("#mobile-nav-brand").fadeOut();
-    $("#mobile-nav").removeClass("dark-background");
+    $(".scrollnav").removeClass("display-flex");
+    $(".mobile-nav-brand").fadeOut();
+    $(".mobile-nav").removeClass("dark-background");
   }
 })
 
